@@ -15,3 +15,7 @@ For performance I will eventually move the loading and uloading of the countries
 
 
 Feel free to steal this code as it's already mostly stolen from various other projects around the internet.
+
+
+2022-02-28 
+I'd like to eventually implement some method of caching the DNS entry, as well as the country reply. This project https://gist.github.com/argv0/1327912 has implemented the dns cache, I'm sure it could be leveraged and extended to carry the country on the cache entry. This will help keep extra queries to the geolocation service to a minimum. If someone wants to help with that, I would totally be up for that.
